@@ -1,0 +1,17 @@
+--- 
+title: "Bookdown template"
+author: "Zoë Turner"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "This is a bookdown template."
+---
+
+# Introductory notes
+
+This is a bookdown template for publishing by html either to GitHub.
